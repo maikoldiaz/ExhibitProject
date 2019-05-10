@@ -1,0 +1,12 @@
+.text{
+  position: absolute;
+  left: auto;
+  right: auto;
+  text-align: justify;
+  font-size: 26px;
+  font-family: serif;
+  margin: 20px;
+  border: solid #000 1px;
+  padding: 10px;
+  color: #ff885e;
+}
