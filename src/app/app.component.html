@@ -1,1 +1,11 @@
-<app-login></app-login>
+<div>   
+    <h1>{{nombre}}</h1>
+    <h2>{{'mi nombre es:' + getName()}}</h2>
+    <img [src] = "imageURL">
+    <br/>
+    <button (click) = "save($event)">Guardar</button>
+    <br/>
+    <input type="text" [(ngModel)]= "people.name"/>
+    <br/>
+    <h1>{{people.name}}</h1>
+</div>
